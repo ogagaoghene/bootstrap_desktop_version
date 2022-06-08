@@ -30,3 +30,24 @@ body {
   background-repeat: no-repeat;
   background-color: #6070ff;
 }
+
+.languages-icon {
+  margin-left: 360px;
+  color: black;
+}
+
+.framework-icon {
+  margin-left: 360px;
+  color: black;
+  font-size: 8px;
+}
+
+.skills-icon {
+  margin-left: 418px;
+  color: black;
+  font-size: 8px;
+}
+
+.increase_height {
+  height: 100vh;
+}
