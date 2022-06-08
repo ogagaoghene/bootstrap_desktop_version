@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Ghazanfar Portfolio
+# Portfolio: Bootstrap Desktop Version
 
 > My software development portfolio.
 
@@ -18,7 +18,7 @@
 
 **This project is part of Microverse first module course. This is used to build the personal portfolio to showcase the skills.**
 **To get the local copy of this clone following repository or download as zip:**
-**https://github.com/gak92/Ghazanfar_Portfolio.git**
+**https://github.com/gak92/Ghazanfar_Portfolio.git** or https://github.com/ogagaoghene/bootstrap_desktop_version.git**
 
 
 ## Authors
@@ -29,6 +29,7 @@
 - LinkedIn: Ghazanfar Ali (https://www.linkedin.com/in/ghazanfar-ali-9a4998a/)
 
 👤 **Author2**
+-   Esi Ogagaoghene
 - GitHub: [@githubhandle](https://github.com/ogagaoghene)
 
 
