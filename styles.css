@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins&display=swap');
 
 * {
-  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+#wrapper {
+  width: 1230px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 .site-header {
   background: url('./assets/intro-img.png');
   background-size: cover;
