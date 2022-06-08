@@ -24,16 +24,23 @@
   </head>
   <body>
     <!-- Header section -->
-    <header class="site-header">
+    <header class="site-header ">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-md navbar-light bg-white">
-        <div class="container d-flex flex-row justify-content-end">
-          <div>
-            <a class="navbar-brand" href="#"><img src="./assets/logo.png" /></a>
-          </div>
-          
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <nav class="navbar navbar-expand-md navbar-light bg-white ms-auto">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./assets/logo.png" /></a>
+
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -48,7 +55,6 @@
         </div>
       </nav>
 
-      <!-- Headline -->
       <div class="container text-center">
         <h1>I’m Alexandra Glad to see you!</h1>
         <p>
@@ -59,20 +65,20 @@
         </p>
         <p>LET’S CONNECT</p>
         <!-- div for social icons -->
-        <ul>
-          <li>
+        <ul class="list-inline">
+          <li class="list-inline-item">
             <a href="#"><i class="fab fa-twitter"></i></a>
           </li>
-          <li>
+          <li class="list-inline-item">
             <a href="#"><i class="fab fa-linkedin"></i></a>
           </li>
-          <li>
+          <li class="list-inline-item">
             <a href="#"><i class="fab fa-medium-m"></i></a>
           </li>
-          <li>
+          <li class="list-inline-item">
             <a href="#"><i class="fab fa-github"></i></a>
           </li>
-          <li>
+          <li class="list-inline-item">
             <a href="#"><i class="fab fa-angellist"></i></a>
           </li>
         </ul>
@@ -80,136 +86,135 @@
     </header>
 
     <!-- Portfolio Section -->
-    <section>
-      <!-- card 1 -->
-      <div class="container m-5 p-3 border border-secondary rounded rounded-2">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="./assets/nature.png" alt="Nature Image" />
-          </div>
-
-          <div class="col-md-6">
-            <h2 class="h2">Tonic</h2>
-            <div>
-              <ul class="list-group list-group-flush d-flex flex-row">
-                <li class="list-group-item border-bottom-0">CANOPY</li>
-                <li class="list-group-item border-bottom-0">Backend Dev</li>
-                <li class="list-group-item">2015</li>
-              </ul>
+    <div id="wrapper">
+      <section>
+        <!-- card 1 -->
+        <div class="container m-5 p-3 border border-secondary rounded rounded-2">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/nature.png" alt="Nature Image" />
             </div>
-            <p class="mt-2">
-              A daily selection of privately personalized reads; no accounts or
-              sign-ups required.
-            </p>
-            <div class="mt-3">
-              <span class="badge bg-primary p-2">HTML</span>
-              <span class="badge bg-primary p-2">CSS</span>
-              <span class="badge bg-primary p-2">Javascript</span>
+  
+            <div class="col-10 col-md-5">
+              <h2 class="h2">Tonic</h2>
+              <div>
+                <ul class="list-group list-group-flush d-flex flex-row">
+                  <li class="list-group-item border-bottom-0">CANOPY</li>
+                  <li class="list-group-item border-bottom-0">Backend Dev</li>
+                  <li class="list-group-item">2015</li>
+                </ul>
+              </div>
+              <p class="mt-2">
+                A daily selection of privately personalized reads; no accounts or
+                sign-ups required.
+              </p>
+              <div class="mt-3">
+                <span class="badge bg-primary p-2">HTML</span>
+                <span class="badge bg-primary p-2">CSS</span>
+                <span class="badge bg-primary p-2">Javascript</span>
+              </div>
+              <button class="btn btn-outline-primary mt-3">See Project</button>
             </div>
-            <button class="btn btn-outline-primary mt-3">See Project</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- card 2 -->
-      <div class="container m-5 p-3 border border-secondary rounded rounded-2">
-        <div class="row">
-
-          <div class="col-md-6">
-            <h2 class="h2">Multipost Stories</h2>
-            <div>
-              <ul class="list-group list-group-flush d-flex flex-row">
-                <li class="list-group-item border-bottom-0">Facebook</li>
-                <li class="list-group-item border-bottom-0">FullStack Dev</li>
-                <li class="list-group-item">2015</li>
-              </ul>
-            </div>
-            <p class="mt-2">
-              Experimental content creation feature that allows users to add to
-              an existing story over the course of a day without spamming their
-              friends.
-            </p>
-            <div class="mt-3">
-              <span class="badge bg-primary p-2">HTML</span>
-              <span class="badge bg-primary p-2">CSS</span>
-              <span class="badge bg-primary p-2">Javascript</span>
-            </div>
-            <button class="btn btn-outline-primary mt-3">See Project</button>
-          </div>
-
-          <div class="col-md-6">
-            <img src="./assets/facebook.png" alt="Nature Image" />
-          </div>
-
-        </div>
-      </div>
-
-      <!-- card 3 -->
-      <div class="container m-5 p-3 border border-secondary rounded rounded-2">
-        <div class="row">
-          <div class="col-md-6">
-            <img src="./assets/art.png" alt="Nature Image" />
-          </div>
-
-          <div class="col-md-6">
-            <h2 class="h2">Facebook 360</h2>
-            <div>
-              <ul class="list-group list-group-flush d-flex flex-row">
-                <li class="list-group-item border-bottom-0">CANOPY</li>
-                <li class="list-group-item border-bottom-0">Backend Dev</li>
-                <li class="list-group-item">2015</li>
-              </ul>
-            </div>
-            <p class="mt-2">
-              Exploring the future of media in Facebook's first Virtual Reality
-              app; a place to discover and enjoy 360 photos and videos on Gear
-              VR.
-            </p>
-            <div class="mt-3">
-              <span class="badge bg-primary p-2">HTML</span>
-              <span class="badge bg-primary p-2">CSS</span>
-              <span class="badge bg-primary p-2">Javascript</span>
-            </div>
-            <button class="btn btn-outline-primary mt-3">See Project</button>
           </div>
         </div>
-      </div>
-
-      <!-- card 4 -->
-      <div class="container m-5 p-3 border border-secondary rounded rounded-2">
-        <div class="row">
-
-          <div class="col-md-6">
-            <h2 class="h2">Uber Navigation</h2>
-            <div>
-              <ul class="list-group list-group-flush d-flex flex-row">
-                <li class="list-group-item border-bottom-0">Uber</li>
-                <li class="list-group-item border-bottom-0">Lead Developer</li>
-                <li class="list-group-item">2018</li>
-              </ul>
+  
+        <!-- card 2 -->
+        <div class="container m-5 p-3 border border-secondary rounded rounded-2">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="h2">Multipost Stories</h2>
+              <div>
+                <ul class="list-group list-group-flush d-flex flex-row">
+                  <li class="list-group-item border-bottom-0">Facebook</li>
+                  <li class="list-group-item border-bottom-0">FullStack Dev</li>
+                  <li class="list-group-item">2015</li>
+                </ul>
+              </div>
+              <p class="mt-2">
+                Experimental content creation feature that allows users to add to
+                an existing story over the course of a day without spamming their
+                friends.
+              </p>
+              <div class="mt-3">
+                <span class="badge bg-primary p-2">HTML</span>
+                <span class="badge bg-primary p-2">CSS</span>
+                <span class="badge bg-primary p-2">Javascript</span>
+              </div>
+              <button class="btn btn-outline-primary mt-3">See Project</button>
             </div>
-            <p class="mt-2">
-              Exploring the future of media in Facebook's first Virtual Reality
-              app; a place to discover and enjoy 360 photos and videos on Gear
-              VR.
-            </p>
-            <div class="mt-3">
-              <span class="badge bg-primary p-2">HTML</span>
-              <span class="badge bg-primary p-2">CSS</span>
-              <span class="badge bg-primary p-2">Javascript</span>
+  
+            <div class="col-md-6">
+              <img src="./assets/facebook.png" alt="Nature Image" />
             </div>
-            <button class="btn btn-outline-primary mt-3">See Project</button>
           </div>
-
-          <div class="col-md-6">
-            <img src="./assets/facebook.png" alt="Nature Image" />
-          </div>
-
         </div>
-      </div>
+  
+        <!-- card 3 -->
+        <div class="container m-5 p-3 border border-secondary rounded rounded-2">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/art.png" alt="Nature Image" />
+            </div>
+  
+            <div class="col-md-6">
+              <h2 class="h2">Facebook 360</h2>
+              <div>
+                <ul class="list-group list-group-flush d-flex flex-row">
+                  <li class="list-group-item border-bottom-0">CANOPY</li>
+                  <li class="list-group-item border-bottom-0">Backend Dev</li>
+                  <li class="list-group-item">2015</li>
+                </ul>
+              </div>
+              <p class="mt-2">
+                Exploring the future of media in Facebook's first Virtual Reality
+                app; a place to discover and enjoy 360 photos and videos on Gear
+                VR.
+              </p>
+              <div class="mt-3">
+                <span class="badge bg-primary p-2">HTML</span>
+                <span class="badge bg-primary p-2">CSS</span>
+                <span class="badge bg-primary p-2">Javascript</span>
+              </div>
+              <button class="btn btn-outline-primary mt-3">See Project</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- card 4 -->
+        <div class="container m-5 p-3 border border-secondary rounded rounded-2">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="h2">Uber Navigation</h2>
+              <div>
+                <ul class="list-group list-group-flush d-flex flex-row">
+                  <li class="list-group-item border-bottom-0">Uber</li>
+                  <li class="list-group-item border-bottom-0">Lead Developer</li>
+                  <li class="list-group-item">2018</li>
+                </ul>
+              </div>
+              <p class="mt-2">
+                Exploring the future of media in Facebook's first Virtual Reality
+                app; a place to discover and enjoy 360 photos and videos on Gear
+                VR.
+              </p>
+              <div class="mt-3">
+                <span class="badge bg-primary p-2">HTML</span>
+                <span class="badge bg-primary p-2">CSS</span>
+                <span class="badge bg-primary p-2">Javascript</span>
+              </div>
+              <button class="btn btn-outline-primary mt-3">See Project</button>
+            </div>
+  
+            <div class="col-md-6">
+              <img src="./assets/facebook.png" alt="Nature Image" />
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    </div>
 
-    </section>
-
+    
     <!-- About Myself Section -->
     <section>
       <div class="container">
@@ -248,7 +253,7 @@
 
           <div class="col-md-6 mt-5 mb-5">
             <ul class="list-group">
-              <li class="list-group-item  border-0">
+              <li class="list-group-item border-0">
                 Languages
                 <ul class="list-inline">
                   <li class="list-inline-item">
@@ -265,7 +270,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="list-group-item  border-0">Frameworks</li>
+              <li class="list-group-item border-0">Frameworks</li>
               <li class="list-group-item border-0">Skills</li>
             </ul>
           </div>
@@ -275,10 +280,10 @@
 
     <!-- Contact Section  -->
 
-    <section class="contact-bg text-center text-white">
+    <section class="contact-bg text-center text-white ">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-6 pt-5 pb-5">
             <h2>Contact Me</h2>
 
             <p>
@@ -297,9 +302,6 @@
                   aria-label="name"
                   placeholder="Enter full name"
                 />
-                <small id="userHelp" class="form-text text-muted"
-                  >Your full name goes here</small
-                >
               </div>
 
               <div class="form-group">
@@ -311,9 +313,6 @@
                   aria-label="email"
                   placeholder="Enter email"
                 />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
               </div>
 
               <div class="form-group">
@@ -326,7 +325,7 @@
                 ></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary mt-5">Submit</button>
             </form>
           </div>
         </div>
