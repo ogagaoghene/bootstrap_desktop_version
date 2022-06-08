@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins&display=swap');
 
+* {
+  font-family: "Poppins", sans-serif;
+}
 .site-header {
   background: url('./assets/intro-img.png');
   background-size: cover;
