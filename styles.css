@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins&display=swap');
+
+.site-header {
+  background: url('./assets/intro-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.contact-bg {
+  background: url('./assets/form-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+}
