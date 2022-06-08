@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+#wrapper {
+  width: 1230px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.site-header {
+  background: url('./assets/intro-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.contact-bg {
+  background: url('./assets/form-img.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+}
+
+.languages-icon {
+  margin-left: 360px;
+  color: black;
+}
+
+.framework-icon {
+  margin-left: 360px;
+  color: black;
+  font-size: 8px;
+}
+
+.skills-icon {
+  margin-left: 418px;
+  color: black;
+  font-size: 8px;
+}
+
+.increase_height {
+  height: 100vh;
+}

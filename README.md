@@ -1,56 +1,36 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Ghazanfar Portfolio
 
-> Description the project.
+> My software development portfolio.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS and bootstrap
+- Bootstrap Frameworks
+- Visual Studio and Git
+- Linters
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+**This project is part of Microverse first module course. This is used to build the personal portfolio to showcase the skills.**
+**To get the local copy of this clone following repository or download as zip:**
+**https://github.com/gak92/Ghazanfar_Portfolio.git**
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: Ghazanfar Ali [@gak92](https://github.com/gak92)
+- LinkedIn: Ghazanfar Ali (https://www.linkedin.com/in/ghazanfar-ali-9a4998a/)
 
 👤 **Author2**
+- GitHub: [@githubhandle](https://github.com/ogagaoghene)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,9 +44,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project is part of Microverse study program.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to Figma Design Template
+- Thanks to Code Reviewers for the insightful feedback.
+- A great thanks to My coding partners, morning session team, and standup team Partners for their contributions and suggestions.
 
 ## 📝 License
 
